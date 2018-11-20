@@ -2,3 +2,12 @@ dist: trusty
 language: node_js
 node_js:
 - stable
+branches:
+    only: development
+notifications:
+    email:
+      recipients:
+      - joexu1997@gmail.com
+      - joedream1997@egmail.com
+      on_success: never
+      on_failure: always
